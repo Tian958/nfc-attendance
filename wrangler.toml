@@ -1,0 +1,13 @@
+name = "rapid-violet-2c23"
+main = "worker.js"
+compatibility_date = "2026-09-15"
+
+[assets]
+directory = "./public"
+run_worker_first = ["/api/*"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "nfc-aattendance-c"
+database_id = "dbbc7b42-e2ba-467f-97ec-190f34c605ce"
+migrations_dir = "migrations"
